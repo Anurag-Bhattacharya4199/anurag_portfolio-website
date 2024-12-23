@@ -1,20 +1,20 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import "./AboutPage.scss";
+import "./ContactPage.scss";
 
-const AboutPage = () => (
-  <div className="about-page">
+const ContactPage = () => (
+  <div className="contact-page">
     <Header />
     <main className="content">
-      <h1>About Me</h1>
+      <h1>Contact Me</h1>
       <p>
-        This is the About Me page where you can include your professional
-        background and story.
+        This is the Contact page where you can include your contact form and
+        details.
       </p>
     </main>
     <Footer />
   </div>
 );
 
-export default AboutPage;
+export default ContactPage;
