@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  text-align: center;
+
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Add spacing between title and nav */
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 20px;
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ffcc00; /* Highlight color for hover */
+        text-decoration: underline;
+      }
+    }
+  }
+}
