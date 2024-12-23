@@ -5,37 +5,32 @@
   background-color: #333; /* Dark background */
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 10px 0; /* Reduce padding */
+  font-size: 14px; /* Adjust font size for compactness */
 
   .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px; /* Reduce space between items */
 
     p {
       margin: 0;
-      font-size: 14px;
+      font-size: 12px; /* Slightly smaller text for copyright and email */
     }
 
     .social-links {
       display: flex;
-      gap: 15px;
+      gap: 10px; /* Reduce space between icons */
 
       a {
         color: white;
         text-decoration: none;
+        font-size: 20px; /* Maintain readable size for icons */
         transition: color 0.3s;
 
         &:hover {
-          color: #ffcc00; /* Highlight color for hover */
-        }
-      }
-
-      svg {
-        transition: transform 0.3s ease;
-        &:hover {
-          transform: scale(1.1);
+          color: #ffcc00; /* Highlight on hover */
         }
       }
     }
@@ -43,6 +38,7 @@
     a {
       color: white;
       text-decoration: none;
+      font-size: 12px; /* Smaller font for email link */
       transition: color 0.3s;
 
       &:hover {

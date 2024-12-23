@@ -1,0 +1,29 @@
+.tile {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .tile-link {
+    text-decoration: none;
+    color: inherit;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #007bff; /* Primary color for the title */
+    }
+
+    p {
+      font-size: 14px;
+      color: #555; /* Subtle text color for description */
+    }
+  }
+}
