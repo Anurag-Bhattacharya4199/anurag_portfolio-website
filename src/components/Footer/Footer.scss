@@ -1,0 +1,53 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Dark background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 15px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #ffcc00; /* Highlight color for hover */
+        }
+      }
+
+      svg {
+        transition: transform 0.3s ease;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #ffcc00; /* Highlight email hover color */
+      }
+    }
+  }
+}
